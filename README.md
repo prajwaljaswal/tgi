@@ -1,3 +1,9 @@
+use command "node --experimental-vm-modules node_modules/jest/bin/jest.js" to run the test cases 
+npm run build will also run the test cases during build
+Vite is used for creating the react app 
+use command npm i to install the project 
+npm run dev wiill start the project 
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
