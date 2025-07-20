@@ -20,6 +20,8 @@ expect(add("1,2,3,4")).toBe(10);
 test('should support new line as delimiter', () => {
 expect(add("1\n2,3")).toBe(6);
 });
-
+test('should support custom delimiter', () => {
+expect(add("//;\n1;2")).toBe(3);
+});
  
 });
