@@ -13,5 +13,9 @@ test('should return sum for two comma-separated numbers', () => {
 expect(add("1,2")).toBe(3);
 });
 
+test('should handle unknown amount of numbers', () => {
+expect(add("1,2,3,4")).toBe(10);
+});
+
  
 });
