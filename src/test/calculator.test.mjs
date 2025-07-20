@@ -23,5 +23,9 @@ expect(add("1\n2,3")).toBe(6);
 test('should support custom delimiter', () => {
 expect(add("//;\n1;2")).toBe(3);
 });
+
+test('should throw on single negative number', () => {
+expect(() => add("1,-2")).toThrow("negative numbers not allowed -2");
+});
  
 });
